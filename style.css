@@ -1,19 +1,5 @@
-html, body {
-	height: 100%;
-}
-
-
-.grid {
-	width: 100%;
-	height: 100%;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-}
-
-.grid-item {
-	width: 100%;
-	height: 100%;
-	border: 1px solid black;
-
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
 }
