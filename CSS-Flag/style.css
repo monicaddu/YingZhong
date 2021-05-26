@@ -53,6 +53,31 @@
 	grid-template-rows: 140px 20px 40px 20px 140px;
 }
 
+.flag-ying-flag{
+	width:300px;
+	height: 150px;
+	grid-template-columns: 15px 170px 15px 100px;
+	grid-template-rows: 85px 15px 50px;
+	background-color: black;
+}
+
+.grid-item-yellowgreen{
+	background-color: #DFE21D;
+	grid-column: 2;
+	grid-row:1;
+}
+
+.grid-item-pink{
+	background-color: #ED3794;
+	grid-column: 4;
+	grid-row:1;
+}
+
+.grid-item-peachpink{
+	background-color: #F26A73;
+	grid-row:3;
+	grid-column:2/5;
+}
 
 
 
