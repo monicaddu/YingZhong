@@ -1,6 +1,8 @@
+/*Adobe font:Madrone Std, Rift Soft, Poster Clean*/
+@import url("https://use.typekit.net/ejl5ild.css");
 html { height: 100%;}
 body {
-  background: #C1C1C1;
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,53 +10,32 @@ body {
 }
 
 
-.rise {
-  color: #643089;
+.rise { 
+  /*the font style of text "rise"*/
+  color: #B616F2;
+  font-family: madrone-std, serif;
+  font-style: normal;
   font-size: 100px;
   font-weight: 500;
-  line-height: 1;
-  font-family: 'Roboto', sans-serif;
 }
 
 .flip {
-  color: #2D2D7F;
+  /*the font style of text "flip"*/
+  color: #165FF2;
   font-size: 100px;
   font-weight: 500;
-  line-height: 1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "rift-soft", sans-serif;
+  font-style: italic;
 }
 
 .fade {
+  /*the font style of text "fade"*/
   color: #DDA210;
   font-size: 100px;
   font-weight: 500;
-  line-height: 1;
-  font-family: Helvetica, sans-serif;
-}
-
-/* vietnamese */
-@font-face {
-  font-family: 'Cabin Condensed';
+  font-family: "poster", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/cabincondensed/v14/nwpMtK6mNhBK2err_hqkYhHRqmwqaOLYxnV18JRx.woff2) format('woff2');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
