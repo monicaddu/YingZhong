@@ -1,3 +1,5 @@
+/*Text-animation-rise style start*/
+
 .btn {
   width: 300px;
   height: 300px;
@@ -21,3 +23,72 @@ body {
   font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
+
+/*Text-animation-rise style end*/
+
+
+
+/*Text-animation-shine style start*/
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.shine{
+  position: relative;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-size: 80%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+/*Text-animation-shine style end*/
+
+
+/*Text-animation-flow typing start*/
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cabincondensed/v14/nwpMtK6mNhBK2err_hqkYhHRqmwqaOLYxnV18JRx.woff2) format('woff2');
+}
+
+/*Text-animation-typing style end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
