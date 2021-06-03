@@ -1,0 +1,61 @@
+html { height: 100%;}
+body {
+  background: #C1C1C1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.rise {
+  color: #643089;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flip {
+  color: #2D2D7F;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fade {
+  color: #DDA210;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: Helvetica, sans-serif;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cabincondensed/v14/nwpMtK6mNhBK2err_hqkYhHRqmwqaOLYxnV18JRx.woff2) format('woff2');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
