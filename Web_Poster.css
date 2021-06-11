@@ -1,3 +1,4 @@
+/*imported fonts from adobe font: octin-college, pt-sans-narrow, embury-text*/
 @import url("https://use.typekit.net/dao1jzs.css");
 
 html {
@@ -144,7 +145,7 @@ html {
 
 /*styling for text start*/
 
-/*Designer' Names and event address*/
+/*Designer' Names and event address, font: octin-college */
 h1 {
 	font-size: 30px;
 	font-family: octin-college, helvetica, sans-serif;
@@ -152,7 +153,7 @@ h1 {
     font-style: normal;
 }
 
-/*Date*/
+/*Date, font: pt-sans-narrow*/
 h2 {
 	font-family: pt-sans-narrow, helvetica, sans-serif;
     font-weight: 400;
@@ -161,22 +162,22 @@ h2 {
     color: white;
 }
 
-/*RISD*/
+/*RISD, font: pt-sans-narrow*/
 h3 {
 	font-size: 20px;
 	margin:0;
-	font-family: pt-sans-narrow, serif;
+	font-family: pt-sans-narrow, helvetica, serif;
 }
 
-/*Tittle*/
+/*Tittle, font: embury-text*/
 h4 {
-	font-family: embury-text,serif;
+	font-family: embury-text, helvetica,serif;
     font-weight: 700;
     font-style: normal;
     font-size: 17px;
 }
 
-/*Description*/
+/*Description, font: helvetica*/
 p {
 	font-size: 7.5px;
 	font-family: helvetica, serif;
@@ -187,6 +188,10 @@ p {
 a {
 	text-decoration: none;
 	color: black;
+	font-family: embury-text, helvetica,serif;
+	font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
 }
 
 /*styling for text end*/
