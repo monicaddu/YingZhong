@@ -1,0 +1,331 @@
+@import url("https://use.typekit.net/dao1jzs.css");
+
+html {
+	padding: 0px 380px;
+	background: black;
+}
+
+
+/*styling for CSS Typeface start*/
+
+.letter-L {
+	margin-left: 40px;
+	position: absolute;
+}
+
+.letter-leftE {
+	margin-left: 205px;
+	margin-top: 180px;
+	transform: scale(0.5,0.5);
+	position: absolute;
+
+}
+
+.letter-C {
+	position: absolute;
+	transform: scale(0.7,0.88);
+	margin-left: -11px;
+	margin-top: 360px;
+}
+
+.letter-U {
+	transform: scale(1.2,1.2);
+	margin-left: 388px;
+	margin-top: 152.5px;
+	position: absolute;
+}
+
+.letter-T {
+	transform: scale(0.8,0.8);
+	margin-left: 260px;
+	margin-top:393px;
+	position: absolute;
+}
+
+.letter-R {
+	transform: scale(0.80,0.80);
+	margin-left: 188px;
+	margin-top:580px;
+	position: absolute;
+}
+
+.letter-rightE {
+	margin-left: 460px;
+	margin-top: 750px;
+	transform: scale(0.63,0.63);
+	position: absolute;
+}
+
+.black-fill {
+	size: 50px 288px;
+	background: black;
+	margin-left: 570px;
+	margin-top: 152.2px;
+	position: absolute;
+}
+
+.grid {
+	display:grid;
+	position: absolute;
+	grid-template-rows: repeat(8, 30px);
+    grid-template-columns: repeat(6, 30px);
+    width:100%;
+    height:100%;
+}
+
+.grid-item {
+	width: 100%;
+	height: 100%;
+}
+
+.square{
+	size: 30px 30px;
+	background: black;
+	position: relative;
+}
+
+.rectangle-left{
+	border-left:15px solid black;
+	position: relative;
+}
+
+.rectangle-right{
+  border-left:15px solid transparent;
+  border-right:15px solid black;
+  width:0px;
+  position: relative;
+}
+
+.rectangle-bottom{
+  border-top:15px solid transparent;
+  border-bottom: 15px solid black;
+  height: 0px;
+  position: relative;
+}
+
+.rectangle-top{
+  border-top:15px solid black;
+  position: relative;
+}
+
+.triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid black;
+   border-left: 30px solid transparent;
+}
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 30px solid black;
+  border-right: 30px solid transparent;
+}
+
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid black;
+  border-right: 30px solid transparent;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 30px solid black;
+  border-left: 30px solid transparent;
+}
+
+/*styling for CSS Typeface end*/
+
+.event-description {
+
+}
+
+/*styling for text start*/
+
+/*Designer' Names and event address*/
+h1 {
+	font-size: 30px;
+	font-family: octin-college, helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Date*/
+h2 {
+	font-family: pt-sans-narrow, helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+/*RISD*/
+h3 {
+	font-size: 20px;
+	margin:0;
+	font-family: pt-sans-narrow, serif;
+}
+
+/*Tittle*/
+h4 {
+	font-family: embury-text,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/*Description*/
+p {
+	font-size: 7.5px;
+	font-family: helvetica, serif;
+	font-weight: ;
+}
+
+/*Link to external page*/
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*styling for text end*/
+
+.E {
+	width: 200px;
+	margin-left:122px;
+	margin-top:15px;
+	position: absolute;
+    color: #D7E621;
+}
+
+.E-description {
+	width: 281px;
+	margin-left: 280px;
+	margin-top: -5px;
+	position: absolute;
+}
+
+.Mar2 {
+	margin-left: 122px;
+	margin-top:-20px;
+	position: absolute;
+}
+
+.Nelly {
+	width: 160px;
+	text-align: right;
+	margin-left: 135px;
+	margin-top:277px;
+	position: absolute;
+	color: #D7E621;
+}
+
+.Nelly-description {
+	width: 200px;
+	margin-left:54px;
+	margin-top:375px;
+	position: absolute;
+	text-align: right;
+}
+
+.Mar8 {
+	width: 150px;
+	margin-left:155px;
+	margin-top:500px;
+	position: absolute;
+}
+
+.Paul {
+	width: 73px;
+	margin-left:80px;
+	margin-top:565px;
+	position: absolute;
+	text-align: right;
+	color: #D7E621;
+}
+
+.Paul-description {
+	width: 122px;
+	margin-left:40px;
+	margin-top:657px;
+	position: absolute;
+	text-align: right;
+}
+
+.Apr5 {
+	width: 250px;
+	margin-left:65px;
+	margin-top:811px;
+	position: absolute;
+}
+
+.Prem {
+	width: 250px;
+	margin-left:380px;
+	margin-top:432px;
+	position: absolute;
+	color: #D7E621;
+}
+
+.Prem-description {
+	width: 187px;
+	margin-left:383px;
+	margin-top:531px;
+	position: absolute;
+}
+
+.May3 {
+	width: 250px;
+	margin-left:383px;
+	margin-top:653px;
+	position: absolute;
+}
+
+.Event-address {
+	width: 175px;
+	transform: rotate(90deg) scale(1.5, 1.5);
+	margin-left: 405px;
+	margin-top:250px;
+	position: absolute;
+}
+
+.Organization {
+	text-align: center;
+	margin-left: 190.75px;
+	margin-top:850px;
+	position: absolute;
+	transform: scale(0.6,0.6);
+}
+
+.Poster-title {
+	width: 194px;
+	margin-left:422px;
+	margin-top: 340px;
+	color: #63A0F2;;
+	position: absolute;
+	transform: scale(1.2, 1.2);
+}
+
+.rectangle {
+    width: 40px;
+    height: 288px;
+    background: black;
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 152.5px;
+}
+
+.body {
+	width: 600px;
+	height: 900px;
+	background-color:#63A0F2;
+	position: absolute;
+}
+
+
+
+
+
+
+
