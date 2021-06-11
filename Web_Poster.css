@@ -139,10 +139,6 @@ html {
 
 /*styling for CSS Typeface end*/
 
-.event-description {
-
-}
-
 /*styling for text start*/
 
 /*Designer' Names and event address, font: octin-college */
@@ -171,7 +167,7 @@ h3 {
 
 /*Tittle, font: embury-text*/
 h4 {
-	font-family: embury-text, helvetica,serif;
+	font-family: embury-text, helvetica, serif;
     font-weight: 700;
     font-style: normal;
     font-size: 17px;
@@ -193,8 +189,6 @@ a {
     font-style: normal;
     font-size: 10px;
 }
-
-/*styling for text end*/
 
 .E {
 	width: 200px;
@@ -307,10 +301,12 @@ a {
 	width: 194px;
 	margin-left:422px;
 	margin-top: 340px;
-	color: #63A0F2;;
+	color: #63A0F2;
 	position: absolute;
 	transform: scale(1.2, 1.2);
 }
+
+/*styling for text end*/
 
 .rectangle {
     width: 40px;
