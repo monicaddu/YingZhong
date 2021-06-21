@@ -57,8 +57,3 @@ function draw() {
     }
   }
 }
-
-function touchMoved() {
-  line(mouseX, mouseY, pmouseX, pmouseY);
-  return false;
-}
