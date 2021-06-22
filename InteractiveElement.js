@@ -13,16 +13,14 @@ let symmetry = Math.floor(Math.random() * 15);
 
 let angle = 360 / symmetry;
 let saveButton, mouseButton, keyboardButton;
-let sw = Math.floor(Math.random() * 25);
-let r = Math.floor(Math.random() * 256);
-let g = Math.floor(Math.random() * 256);
-let b = Math.floor(Math.random() * 256);
+var sw = Math.floor(Math.random() * 10);
 
 function setup() { 
   createCanvas(windowWidth,windowHeight);
   angleMode(DEGREES);
   random_bg_color();
   stroke(Math.random() * 256,Math.random() * 256,Math.random() * 256);
+  fill(Math.random() * 256,Math.random() * 256,Math.random() * 256);
 
   // Creating the save button for the file
   saveButton = createButton('save');
@@ -50,9 +48,10 @@ function draw() {
         strokeWeight(sw);
         line(mx, my, pmx, pmy);
         push();
-        scale(1, -1);
-        line(mx, my, pmx, pmy);
+        scale(-0.5, -0.5);
         pop();
+        ellipse(mx/8, mx/8, my/8, my/8);
+        rect(mx/2, my/2, my/2, mx/2);
       }
     }
   }
