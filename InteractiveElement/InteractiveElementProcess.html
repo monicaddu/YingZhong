@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--import the font: PT Sans Narrow-->
+<link rel="stylesheet" href="https://use.typekit.net/dao1jzs.css">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Kaleidoscope_Maker</title>
+</head>
+
+<body>
+		<!-- Header -->
+		<div class="header">
+			<h1>Kaleidoscope Maker<br>Design Process</h1>
+		</div>
+
+		<!-- content-->
+		<div class="content">
+			<!--subtitile: Inspirations-->
+			<h2> Inspiration</h2>
+			<iframe src="https://www.equalparts.studio/work/eps-drawing-app.html" width="80%" height="400" style="border:0; padding-left:60px;" allowfullscreen="" loading="lazy"></iframe>
+			<p>When I saw that the term I was assigned was "Drag", the first image associated with this action was moving an item from one place to another. Secondly, I was reminded of an EqualParts project called "Drawing App" that Ha mentioned in the first session, where the user can drag simple geometric shapes to make continuous copies to create interesting patterns and lines.</p>
+			<a href="https://qodeinteractive.com/kaleidoscope/">
+				<img src="https://qodeinteractive.com/magazine/wp-content/uploads/2020/01/Qode-Kaleidoscope-A-Case-Study.jpg"alt="Insipiration images"/>
+			</a>
+			<p>So I thought it might be more interesting if each drag could not only duplicate the image in the trajectory but also produce the same effect on a symmetrical surface like a kaleidoscope. In my search for a solution, I found a project called Qode Kaleidoscope (click on the image to experience it), which created an interactive website that allows users to change the pattern and color of the kaleidoscope by clicking, hovering or dragging, with each unique and vibrant theme corresponding to a specific project.
+			</p>
+
+
+			<!--subtitile: Early Experiments-->
+			<h2> Early Experiments </h2>
+			<iframe src="https://p5js.org/examples/interaction-kaleidoscope.html" width="80%" height="400" style="border:0; padding-left:60px;" allowfullscreen="" loading="lazy"></iframe>
+			<img src="Drag/Test1.png" style="padding-left: 60px;"alt="Code Testing"/>
+			<p> At p5js.org, I found the code for this kaleidoscope, which allows drawing simple kaleidoscope patterns made of lines and modifying the strokeweight. </p>
+			<img src="Drag/Test2.png" style="padding-left: 60px;"alt="Code Testing"/>
+			<p>The original programming file already had a bit of a kaleidoscopic feel to it, but I wanted to add more randomness. So I removed all the buttons except for the save function and added randomness to strokeWeight, symmetry, strokeColor and also made the screen background change color after each refresh.</p>
+
+			<!--subtitile: Iterations-->
+			<h2> Iterations</h2>
+			<img src="Drag/design.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-2.jpg" style="width: 40%;" alt="Iterations"/>
+			<p>With the addition of color, I felt this was one step closer to what I wanted to achieve. On top of the original line elements, I tried to introduce more variations on stroke colours after following another Youtube tutorial.</p>
+			<img src="Drag/design-3.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-4.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-5.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-6.jpg" style="width: 40%;" alt="Iterations"/>
+			<p>However, the ranbow color kind of conflicts with my original aspiration of random stroke color. Besides, I also experimented with different geometric shapes within the kaleidoscope pattern which I felt even closer to the interaction I want.</p>
+			<img src="Drag/design-7.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-8.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-9.jpg" style="width: 40%;" alt="Iterations"/>
+			<img src="Drag/design-10.jpg" style="width: 40%;" alt="Iterations"/>
+			<p>Likewise, the shape fills are also displayed in random colors. So each time user refresh the website, the canvas will be clear. Users are able to create their own unique kaleidoscope with a randow "brush".</p>
+
+			<h2> Mobile experience </h2>
+			<div style="width:100%;height:0;padding-bottom:30%;position:relative;margin-left:40px;"><iframe src="https://giphy.com/embed/eDTqrNGF43LmnHXDqV" width="100%" height="100%" style="position:absolute; " frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/eDTqrNGF43LmnHXDqV"></a></p>
+
+			<!--subtitile: Final design-->
+			<a href="InteractiveElement.html"><h2 style="color: green; margin-top: -10px; font-size: 40px; text-align: center;"> Launch Website</h2></a>
+		</div>
+
+	<style>
+
+		@media screen and (max-width: 800px) {
+			body {
+				width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+			}
+		}
+		html {
+			background: black;
+		}
+		body {
+			margin-left: 80px;
+			margin-right: 80px;
+			color: white;
+			position: relative;
+		}
+
+		/*Below is the styling for the text*/
+		h1 {
+			font-size: 40px;
+			font-weight: 800;
+			text-align: center;
+		}
+
+		h2 {
+			font-weight: 600;
+			margin-left: 60px;
+			margin-top: 60px;
+			color: white;
+			grid-column: 1/3;
+		}
+
+		p {
+			margin-left: 60px;
+			margin-right: 60px;
+			font-family: pt-sans-narrow, serif;
+			font-size:20px;
+		}
+
+		a {
+			text-decoration: none;
+			align-content: center;
+			margin-left: 55px;
+			margin-right: 15px;
+			font-size: 12px;
+			color: grey;
+		}
+
+		img {
+			width:80%;
+			height:auto;
+			position: relative;
+		}
+
+
+	</style>
+
+</body>
+</html>
