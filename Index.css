@@ -1,0 +1,405 @@
+@import url("https://use.typekit.net/wbj2oci.css");
+
+/* Setting fade transition and default settings */
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
+
+
+section {
+  text-align: left;
+  display: flex;
+  margin-left: 10em;
+  padding: 0.5rem;
+  width:  40em;
+  border: 0.1em solid black;
+}
+
+section:hover {
+  background-color: black;
+  color: white;
+  cursor: crosshair;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: top;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+.panel > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+/* colours */
+.color-violet {
+  background-color: #7A4EAB;
+}
+.color-indigo {
+  background-color: #4D5DE2;
+}
+.color-blue {
+  background-color: #2F8FED;
+}
+.color-green {
+  background-color: #5FCEA3;
+}
+.color-yellow {
+  background-color: #C6D64D;
+}
+.color-orange {
+  background-color: #E08246;
+}
+
+/* styling for demo, can ignore */
+body {
+  text-align: left;
+  font-size: 100%;
+  line-height: 1.618;
+}
+h1, h2, {
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  margin-top:5%;
+}
+
+h1 {
+  font-family: garamond-premier-pro,serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4em;
+  color: #EF7474;
+  margin-left: 10%;
+}
+h2 {
+  font-size: 5em;
+  font-family: ocr-a-std,monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20%;
+}
+h3 {
+  font-size: 1em;
+  font-family: ocr-a-std,monospace;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0% 10% 0% 10%;
+  text-align: center;
+}
+p {
+  max-width: 30em;
+  margin: 0% 10% 0% 10%;
+  color: white;
+  font-family: garamond-premier-pro,serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.2em;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: ocr-a-std,monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grid {
+  display:grid;
+  position: relative;
+  grid-template-rows: repeat(8, 1em);
+  grid-template-columns: repeat(6, 1em);
+  width:100%;
+  height:100%;
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+}
+
+.square{
+  size: 1em 1em;
+  background: black;
+  position: relative;
+}
+
+.rectangle-left{
+  border-left:0.5em solid black;
+  position: relative;
+}
+
+.rectangle-right{
+  border-left:0.5em solid transparent;
+  border-right:0.5em solid black;
+  width:0px;
+  position: relative;
+}
+
+.rectangle-bottom{
+  border-top:0.5em solid transparent;
+  border-bottom:0.5em solid black;
+  height: 0px;
+  position: relative;
+}
+
+.rectangle-top{
+  border-top:0.5em solid black;
+  position: relative;
+}
+
+.triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 1em solid black;
+   border-left: 1em solid transparent;
+}
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 1em solid black;
+  border-right: 1em solid transparent;
+}
+
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 1em solid black;
+  border-right: 1em solid transparent;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 1em solid black;
+  border-left: 1em solid transparent;
+}
+
+.letter {
+  transform: scale(0.7,0.7);
+  display: inline-flex;
+}
+
+
+img {
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+
+img:hover {
+  cursor: zoom-in;
+}
+
+img:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+.interactive, .media-web {
+  text-align: left;
+  margin-left: 5em;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5%;
+}
+
+ .hide { display: none; }
+ .pink { color: white; }
+ b, span { cursor: pointer; }
+ b {
+  position: relative;
+  display: inline-block;
+  color: white;
+  overflow: hidden;
+  font-size: 1.5em;
+  font-family: ocr-a-std,monospace;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0% 5% 0% 5%;
+  text-align: left;
+ }
+ b {
+   background: linear-gradient(to right, #F4DB54, #F4DB54 50%, white 50%);
+ }
+ b {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+ }
+ b {
+  transition: background-position 275ms ease;
+ }
+ b:hover {
+  background-position: 0 100%;
+}
+
+button {
+  display: block;
+  width: 20%;
+  height:10%;
+  color: white;
+  background: none;
+}
+
+#_:hover {
+  cursor: pointer;
+}
+
+#_2:hover {
+  cursor: pointer;
+}
+
+#_3:hover {
+  cursor: pointer;
+}
+svg {
+    max-width: 100%;
+}
+
+g:hover{
+  transform: translateY(-10px);
+}
+
+li:hover {
+  color: #DBB126;
+}
+
+
+.words {
+  color: #C6D64D;
+  font-size: 0;
+  line-height: 1.5;
+  font-family: hwt-mardell,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.words span {
+  font-size: 10rem;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+  font-family: hwt-mardell,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+.words span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.words span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.words span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.words span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.words span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.words span:nth-child(7) {
+  animation-delay: 3s;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  background: #11ED54;
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #ED37CA; /* Add a dark-grey background on hover */
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+}
+
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 99;
+}
+
+@media (max-width: 600px) {
+  body{
+    font-size: 80%;
+  }
+  svg {
+    max-width: 50%;
+  }
+}
+
+
+
