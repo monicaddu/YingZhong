@@ -1,4 +1,6 @@
+/* Import font: silmon, Garamond Premier Pro, ocr-a, hwt-mardell; */
 @import url("https://use.typekit.net/wbj2oci.css");
+@import url('http://fonts.cdnfonts.com/css/silom');
 
 /* Setting fade transition and default settings */
 body {
@@ -7,7 +9,7 @@ body {
   transition: background-color 1s ease;
 }
 
-
+/*styling for table of contents*/
 section {
   text-align: left;
   display: flex;
@@ -40,8 +42,6 @@ section:hover {
   flex-direction: column;
   align-items: top;
   font-family: sans-serif;
-  /* outline: 10px solid hotpink; */
-  /* turn above on to see the edge of panels */
 }
 
 .panel > * {
@@ -69,7 +69,7 @@ section:hover {
   background-color: #E08246;
 }
 
-/* styling for demo, can ignore */
+/*define the style for text*/
 body {
   text-align: left;
   font-size: 100%;
@@ -121,6 +121,7 @@ a {
   font-style: normal;
 }
 
+/*styling for custom fonts start*/
 .grid {
   display:grid;
   position: relative;
@@ -197,8 +198,10 @@ a {
   transform: scale(0.7,0.7);
   display: inline-flex;
 }
+/*styling for custom fonts end*/
 
 
+/* Setting img zoom-in feature */
 img {
     transition: -webkit-transform 0.25s ease;
     transition: transform 0.25s ease;
@@ -227,6 +230,7 @@ img:active {
   padding: 5%;
 }
 
+/* Create text highlight when hovering */
  .hide { display: none; }
  .pink { color: white; }
  b, span { cursor: pointer; }
@@ -278,19 +282,22 @@ button {
 #_3:hover {
   cursor: pointer;
 }
+
 svg {
     max-width: 100%;
 }
 
+/*tab move up on hover*/
 g:hover{
   transform: translateY(-10px);
 }
 
+/*bulllets change color on hover*/
 li:hover {
   color: #DBB126;
 }
 
-
+/*animation text styling for: Thank you*/
 .words {
   color: #C6D64D;
   font-size: 0;
@@ -345,6 +352,7 @@ font-style: normal;
   animation-delay: 3s;
 }
 
+/*styling for up to top button*/
 #myBtn {
   display: none; /* Hidden by default */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -384,7 +392,6 @@ font-style: normal;
 
 .wrapper {
   height: 100vh;
-  /*This part is important for centering*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -392,6 +399,7 @@ font-style: normal;
   z-index: 99;
 }
 
+/*make screen responsive*/
 @media (max-width: 600px) {
   body{
     font-size: 80%;

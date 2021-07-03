@@ -1,3 +1,4 @@
+//js for color chaging background
 $(window)
   .scroll(function () {
     // selectors
@@ -30,7 +31,7 @@ $(window)
   })
   .scroll();
 
-
+//js for read more/read less button
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -55,6 +56,7 @@ function spanEllipse(info) {
   info.previousElementSibling.classList.toggle('hide')
 }
 
+//js for up to top button
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
